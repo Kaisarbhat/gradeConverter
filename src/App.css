@@ -1,0 +1,110 @@
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+}
+
+h1, h2 {
+  color: white;
+}
+select{
+  color:black;
+}
+
+.select-conversion{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  color:black;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.result h2{
+  color:black;
+}
+
+.result p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.history {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 20px;
+  color:black;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.history li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.history button {
+  margin-top: 10px;
+  background-color: #f44336;
+}
+
+.history button:hover {
+  background-color: #d32f2f;
+}
